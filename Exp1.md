@@ -15,14 +15,27 @@ Else
 6.	Return 0
  
 Program:
-
-// Type your code here
-
-
+```
+#include<stdio.h> struct eligib
+{
+int age; char n[4];
+};
+int main()
+{
+struct eligib e; scanf("%d%s",&e.age,e.n);
+if(e.age<=6)
+{
+printf("Age:%d\nName:%svaccine:%d\neligibility:no",e.age,e.n,e.age);
+}
+ 
+else
+{
+}
+printf("Age:%d\nName:%svaccine:%d\neligibility:yes",e.age,e.n,e.age);
+}
+```
 Output:
 
-// paste the output screenshot
-
-
+![image](https://github.com/user-attachments/assets/f9d8365a-2884-40ed-979f-58ce2d68d8de)
 Result:
 Thus, the program is verified successfully.
